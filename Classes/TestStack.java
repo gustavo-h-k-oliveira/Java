@@ -23,6 +23,7 @@ class Stack {
     int pop() {
         
         if (tos < 0) {
+
             System.out.println("Stack underflow.");
             return 0;
         }
@@ -39,15 +40,9 @@ public class TestStack {
         for(int i=10; i<20; i++) myStack2.push(i);
 
         System.out.println("Stack in myStack1:");
-        for(int i=0; i<10; i++) {
-
-            System.out.println(myStack1.pop());
-        }
+        for(int i=0; i<10; i++) System.out.println(myStack1.pop());
 
         System.out.println("Stack in myStack2:");
-        for(int i=0; i<10; i++) {
-
-            System.out.println(myStack2.pop());
-        }
+        for(int i=0; i<10; i++) System.out.println(myStack2.pop());
     }
 }
