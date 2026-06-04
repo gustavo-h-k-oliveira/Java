@@ -1,4 +1,4 @@
-package Herança;
+package Herança.Notificação;
 
 class Email extends Notificação {
     

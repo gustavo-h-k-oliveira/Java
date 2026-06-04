@@ -1,0 +1,12 @@
+package Herança.Pagamentos;
+
+public class Pagamento {
+    
+    protected double valor;
+
+    public Pagamento(double valor) {
+        this.valor = valor;
+    }
+
+    void confirmarPagamento() {}
+}

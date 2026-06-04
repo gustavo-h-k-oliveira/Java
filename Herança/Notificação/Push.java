@@ -1,4 +1,4 @@
-package Herança;
+package Herança.Notificação;
 
 public class Push extends Notificação {
     

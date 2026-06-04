@@ -1,4 +1,4 @@
-package Herança;
+package Herança.Notificação;
 
 public class Sms extends Notificação {
 
